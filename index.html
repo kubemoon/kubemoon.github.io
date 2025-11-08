@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kubemoon - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Vidéo en arrière-plan -->
+    <video autoplay muted loop playsinline id="bg-video" onloadedmetadata="this.playbackRate = 0.25;">
+        <source src="video.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la vidéo HTML5.
+    </video>
+
+    <!-- Contenu par-dessus la vidéo -->
+    <div class="overlay">
+        <div class="content">
+            <h1 class="title">KUBEMOON</h1>
+            <p class="subtitle">Portfolio créatif</p>
+            <button class="cta-button" id="scrollButton">Découvrir</button>
+        </div>
+    </div>
+
+    <!-- Section Galerie -->
+    <section class="gallery-section">
+        <h2 class="gallery-title">Galerie</h2>
+        <div class="gallery" id="gallery">
+            <div class="gallery-item" data-id="1">
+                <img src="photos/photo1.jpg" alt="Photo 1">
+            </div>
+            <div class="gallery-item" data-id="2">
+                <img src="photos/photo2.jpg" alt="Photo 2">
+            </div>
+            <div class="gallery-item" data-id="3">
+                <img src="photos/photo3.jpg" alt="Photo 3">
+            </div>
+            <div class="gallery-item" data-id="4">
+                <img src="photos/photo4.jpg" alt="Photo 4">
+            </div>
+            <div class="gallery-item" data-id="5">
+                <img src="photos/photo5.jpg" alt="Photo 5">
+            </div>
+            <div class="gallery-item" data-id="6">
+                <img src="photos/photo6.jpg" alt="Photo 6">
+            </div>
+            <div class="gallery-item" data-id="7">
+                <img src="photos/photo7.jpg" alt="Photo 7">
+            </div>
+            <div class="gallery-item" data-id="8">
+                <img src="photos/photo8.jpg" alt="Photo 8">
+            </div>
+            <div class="gallery-item" data-id="9">
+                <img src="photos/photo9.jpg" alt="Photo 9">
+            </div>
+            <div class="gallery-item" data-id="10">
+                <img src="photos/photo10.jpg" alt="Photo 10">
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
