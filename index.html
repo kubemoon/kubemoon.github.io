@@ -8,10 +8,10 @@
 </head>
 <body>
     <!-- Vidéo en arrière-plan -->
-    <video autoplay muted loop playsinline id="bg-video">
-        <source src="video.mp4" type="video/mp4">
-        Votre navigateur ne supporte pas la vidéo HTML5.
-    </video>
+<video autoplay muted loop playsinline id="bg-video" onloadedmetadata="this.playbackRate = 0.25;">
+    <source src="video.mp4" type="video/mp4">
+    Votre navigateur ne supporte pas la vidéo HTML5.
+</video>
 
     <!-- Contenu par-dessus la vidéo -->
     <div class="overlay">
